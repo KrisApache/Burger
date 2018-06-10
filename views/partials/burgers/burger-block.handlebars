@@ -1,0 +1,19 @@
+<li class="center-align">
+	{{burger_name}}
+<br>
+	<a class="change-eat waves-effect waves-light btn center" data-id="{{id}}" data-neweat="{{devoured}}">
+		<i class="material-icons prefix">local_dining</i>
+		{{#if devoured}}Eat!
+		{{!-- {{else}}WAKE UP! --}}
+		{{/if}}
+	</a>
+
+	{{!-- <button class="change-eat waves-effect waves-light btn" data-id="{{id}}" data-neweat="{{devoured}}">
+		<i class="material-icons left"></i>
+		{{#if devoured}}Eat Burger!
+		{{!-- {{else}}WAKE UP! --}}
+		{{!-- {{/if}} --}}
+	{{!-- </button> --}} 
+
+	{{!-- <button class="delete-cat" data-id="{{this.id}}">DELETE!</button> --}}
+</li>

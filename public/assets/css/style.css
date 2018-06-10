@@ -1,7 +1,17 @@
+body {
+  background-image: url("../images/back.jpg");
+}
+
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: lightcoral;
+  }
+
+  .heading {
+    padding: 5px;
+    margin: 5px;
+    background: lightsalmon;
   }
   
   .label {
